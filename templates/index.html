@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Sentiment Analyzer</title>
+    <meta name="description" content="Calculate sentiment score of any text">
+    <meta name="author" content="Zyzus">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sentiment analyzer</h1>
+    <h3>Provide sentiment for your text.</h3>
+
+    <!-- Inputs for our ML model -->
+    <div class="ML-container">
+        <form id="text" action = "{{url_for('predict')}}" method="post">
+            <input type="'text" name="message" placeholder="texts"/> <!-- match name=message so we can input to app.py-->
+            <button type="submit" class="btn btn-primary btn-block btn-large">Predict Sentiment!</button>
+        </form>
+    </div>
+
+    <b> {{prediction}}</b>
+</body>
+</html>
