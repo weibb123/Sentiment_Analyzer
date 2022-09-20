@@ -2,6 +2,8 @@
 Sentiment analysis app
 Tool: Python, NLTK, Flask, html, css
 
+This ML web app uses no data. It is suppose to be unsupervised sentiment analysis. 
+
 ![image](https://user-images.githubusercontent.com/84426364/191149624-02f432c0-9ff9-4759-993d-a6b77e450b92.png)\
 
 
