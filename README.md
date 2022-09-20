@@ -1,6 +1,6 @@
 # Sentiment_Analyzer
 Sentiment analysis app
-Tool: Python, NLTK, Flask, html, css\
+Tool: Python, NLTK, Flask, html, css\\
 ![image](https://user-images.githubusercontent.com/84426364/191149624-02f432c0-9ff9-4759-993d-a6b77e450b92.png)\
 
 
